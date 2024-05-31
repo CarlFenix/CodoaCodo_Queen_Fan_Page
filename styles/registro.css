@@ -1,0 +1,113 @@
+
+header {
+    text-align: center;
+    border-radius: 10px; /* Agregamos un borde redondeado */
+    padding: 20px; /* Agregamos espacio interno para el contenido del header */
+    border-width: 5px; /* Ancho del borde */
+    border-style: solid; /* Estilo del borde */
+    border-image: linear-gradient(45deg, #ff6699, #6699ff) 1; /* Degradado para el borde */
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px; /* Espacio entre el header y el navbar */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px; /* Espacio entre elementos */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #ba2b2b; /* Agregamos un borde */
+    text-decoration: none;
+    color: #ba2b2b; /* Color del texto */
+}
+.container {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.login-container {
+    box-sizing: border-box;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="password"],
+button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    width: 60%;
+    display: block;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: large;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.form-group-button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.error {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+}

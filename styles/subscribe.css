@@ -1,0 +1,62 @@
+
+header {
+    text-align: center;
+    border-radius: 10px; /* Agregamos un borde redondeado */
+    padding: 20px; /* Agregamos espacio interno para el contenido del header */
+    border-width: 5px; /* Ancho del borde */
+    border-style: solid; /* Estilo del borde */
+    border-image: linear-gradient(45deg, #ff6699, #6699ff) 1; /* Degradado para el borde */
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px; /* Espacio entre el header y el navbar */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px; /* Espacio entre elementos */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #ba2b2b; /* Agregamos un borde */
+    text-decoration: none;
+    color: #ba2b2b; /* Color del texto */
+}
+
+.titulo{
+    text-align: center;
+    color: #070202;
+    background-color: rgb(210, 216, 216);
+    
+}
+
+.formulario {
+    width: 53%; /* Establece el ancho del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    padding: 20px; /* Añade un espacio interior al formulario */
+    
+}
+
+.inputLarge{
+    width: 250px;
+    text-align: center;
+}
+
+.InputNetoGravadoStyle{
+    width: 160px;
+    text-align: center;
+}

@@ -1,0 +1,170 @@
+
+header {
+    text-align: center;
+    border-radius: 10px; /* Agregamos un borde redondeado */
+    padding: 20px; /* Agregamos espacio interno para el contenido del header */
+    border-width: 5px; /* Ancho del borde */
+    border-style: solid; /* Estilo del borde */
+    border-image: linear-gradient(45deg, #ff6699, #6699ff) 1; /* Degradado para el borde */
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px; /* Espacio entre el header y el navbar */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px; /* Espacio entre elementos */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #ba2b2b; /* Agregamos un borde */
+    text-decoration: none;
+    color: #ba2b2b; /* Color del texto */
+}
+.slider-box{
+    width: 1200px;
+    height: auto;
+    margin: 5px auto 0;   
+    overflow: hidden; 
+}
+section#logros {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section#logros h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section#logros p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+section#logros h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+section#logros ul {
+    text-align: left;
+    margin-left: 40px;
+}
+
+section#logros ul li {
+    margin-bottom: 10px;
+}
+section#historia {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section#historia h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section#historia p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+section#historia h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+section#historia ul {
+    text-align: left;
+    margin-left: 40px;
+}
+
+section#historia ul li {
+    margin-bottom: 10px;
+}
+.gallery {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.thumbnail {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+#modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%; /* Establece el ancho del modal al 90% de la pantalla */
+    max-width: 90%; /* Asegura que el modal no sea más ancho que el 90% de la pantalla */
+    height: auto; /* Permite que la altura se ajuste automáticamente manteniendo la proporción */
+    max-height: 90%; /* Limita la altura máxima del modal al 90% de la pantalla */
+    overflow: auto; /* Agrega scroll si el contenido es demasiado grande */
+    background-color: white;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+#modal-img {
+    width: 100%; /* Establece el ancho de la imagen al 100% del tamaño del modal */
+    height: auto; /* Permite que la altura se ajuste automáticamente manteniendo la proporción */
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white; /* Cambia el color del texto a blanco */
+    background-color: red; /* Cambia el color de fondo a rojo */
+    border: none; /* Elimina el borde */
+    padding: 5px; /* Aumenta el espacio alrededor del botón */
+    border-radius: 50%; /* Hace que el botón tenga forma circular */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); /* Agrega una sombra */
+}
+
+.close:hover {
+    background-color: darkred; /* Cambia el color de fondo al pasar el mouse */
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queen</title>
+    <link rel="stylesheet" href="../styles/subscribe.css">
+</head>
+<body>
+ 
+    <header>
+      <a href="../index.html"><img src="../resources/images/Portada.jpg" width="40%"></a> 
+    </header>
+    <nav>
+        <ul>
+            <li><a href="banda.html">La Banda</a></li>
+            <li><a href="albums.html">Discografía</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="subscribe.html">Suscribite</a></li>
+            <li><a href="login.html">Iniciar Sesion</a></li>
+        </ul>
+    </nav>
+    <div class="formulario">
+      <form action="/formulario" method="get">
+          <fieldset>
+              
+              <legend>Datos personales</legend>
+              <label for="InputNombre">Nombre y Apellido</label>
+              <input 
+                  type="text" 
+                  name="InputNombre" 
+                  id="InputNombre"
+                  placeholder="Ingrese su nombre y apellido"
+                  maxlength="30"
+                  style="margin-left: 10px;"
+                  required
+                  class="inputLarge"
+                  
+              >
+              <br><br>
+              <label for="Fecha">Fecha de nacimiento</label>
+              <input
+                  type="date"
+                  name="inputFecha"
+                  id="inputFecha"
+              />
+              <br><br>
+              <label for="InputIntegrante">Integrante favorito</label>
+              <input 
+                  type="search" 
+                  name="InputIntegrante" 
+                  id="InputIntegrante"
+                  placeholder="Ingrese su integrante favorito"
+                  list="ListaIntegrantes"
+                  name="lista"
+                  required
+                  style="margin-left: 12px;"
+                  class="inputLarge"
+              >
+              
+              <datalist id="ListaIntegrantes">
+                  <option value="Freddie Mercury"></option>
+                  <option value="Brian May"></option>
+                  <option value="John Deacon"></option>
+                  <option value="Roger Taylor"></option>
+                  
+              </datalist>
+              <br><br>          
+              <label for="InputMail">E-Mail</label>
+              <input 
+                  type="text" 
+                  name="InputMail" 
+                  id="InputMail"
+                  placeholder="Ingrese su e-mail"
+                  maxlength="40"
+                  style="margin-left: 85px;"
+                  required
+                  class="inputLarge"
+                  
+              >
+              
+          </fieldset>
+          <button type="submit">Enviar</button>
+      </form>
+  </div>
+</body>
+</html>
