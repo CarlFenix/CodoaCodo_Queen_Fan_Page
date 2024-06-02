@@ -1,4 +1,5 @@
 
+
 header {
     text-align: center;
     border-radius: 10px; /* Agregamos un borde redondeado */
@@ -35,6 +36,106 @@ nav ul li a {
     border: 2px solid #ba2b2b; /* Agregamos un borde */
     text-decoration: none;
     color: #ba2b2b; /* Color del texto */
+}
+.slider-box{
+    width: 1200px;
+    height: auto;
+    margin: 5px auto 0;   
+    overflow: hidden; 
+}
+section#logros {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section#logros h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section#logros p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+section#logros h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+section#logros ul {
+    text-align: left;
+    margin-left: 40px;
+}
+
+section#logros ul li {
+    margin-bottom: 10px;
+}
+section#historia {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section#historia h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section#historia p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+section#historia h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+section#historia ul {
+    text-align: left;
+    margin-left: 40px;
+}
+
+section#historia ul li {
+    margin-bottom: 10px;
+}
+.gallery {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.thumbnail {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-link-p:hover{
+    color: aliceblue;
+    font-weight: bold;
+    background-color: #ba2b2b;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
 }
 .container {
     width: 400px;
