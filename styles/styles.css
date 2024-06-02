@@ -123,6 +123,11 @@ section#historia ul li {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+.navbar-link-p:hover{
+    color: aliceblue;
+    font-weight: bold;
+    background-color: #ba2b2b;
+}
 
 .close {
     position: absolute;
